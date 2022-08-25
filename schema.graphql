@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type MyObject {
+  n: Int!
+}
+
+type Query {
+  object(inputDto: MyInput!): MyObject!
+}
+
+input MyInput {
+  """123"""
+  inputField: Int!
+}
